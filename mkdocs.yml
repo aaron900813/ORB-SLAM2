@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: ORB_SLAM2
 nav:
     - Home: index.md
     - install: INSTALL.md
