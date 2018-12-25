@@ -1,3 +1,6 @@
+# SYSTEM OVERVIEW
+## 1. Monocular Video
+```
 /**
 * This file is part of ORB-SLAM2.
 *
@@ -59,9 +62,9 @@ int main(int argc, char **argv)
         }
         // cv::imwrite("ori.jpeg", im);
         cv::resize(im, im, cv::Size(960, 544));
-        // 矩阵转置
+        // matrix transpose
         transpose(im, im); 
-        //0: 沿X轴翻转； >0: 沿Y轴翻转； <0: 沿X轴和Y轴翻转
+        //0: flip x； >0: flip y； <0: flip x and y
         flip(im, im, 1);
 
 #ifdef COMPILEDWITHC11
@@ -98,3 +101,6 @@ int main(int argc, char **argv)
 
     return 0;
 }
+```
+![mono_video.cpp call graph](../../html/mono__video_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.gif)
+
