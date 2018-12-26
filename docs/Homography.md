@@ -1,8 +1,7 @@
 # Homograph Matrix
 
 ![homography](resources/homography.png)
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$
+<div align="center">![](http://latex.codecogs.com/gif.latex?
 {\begin{bmatrix}
 {u_1}\\\
 {v_1}\\\
@@ -13,5 +12,4 @@ $$
 {u_2}\\\
 {v_2}\\\
 1\\\
-\end{bmatrix}}
-$$
+\end{bmatrix}})
