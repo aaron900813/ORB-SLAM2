@@ -1,4 +1,4 @@
-# SYSTEM OVERVIEW
+# Some Example
 ## 1. Monocular Video
 ```
 /**
@@ -61,6 +61,7 @@ int main(int argc, char **argv)
             break;
         }
         // cv::imwrite("ori.jpeg", im);
+        /*you should change resolution to your calibration resolution*/
         cv::resize(im, im, cv::Size(960, 544));
         // matrix transpose
         transpose(im, im); 

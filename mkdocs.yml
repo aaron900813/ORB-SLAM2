@@ -1,6 +1,9 @@
 site_name: ORB_SLAM2
 nav:
     - Home: index.md
-    - install: INSTALL.md
-    - getstart: GetStart.md
+    - SLAM: SLAM.md
+    - Install: Install.md
+    - Example: Example.md
+    - Brief Introduction: Brief_Introduction.md
+    - Homography: Homography.md
 theme: readthedocs
